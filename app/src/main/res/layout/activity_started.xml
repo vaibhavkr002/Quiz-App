@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bk2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/getstartedor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz App"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="45dp"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Improve your skills for a glorious future."
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/greytext"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp" />
+
+     <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Get Started"
+    android:clickable="true"
+         android:id="@+id/btnstart"
+    android:textAllCaps="false"
+    android:background="@drawable/button"
+    android:layout_marginTop="110dp"
+    android:layout_marginRight="160dp"
+    android:backgroundTint="@color/skincol"
+    android:textSize="20sp"
+    android:drawableRight="@drawable/rightarrow"
+    android:layout_marginLeft="30dp" />
+
+</LinearLayout>

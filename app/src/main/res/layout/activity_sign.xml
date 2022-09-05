@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bk4"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:background="@drawable/image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lg" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/arrowback" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+     android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/a1"
+        android:elevation="100dp"
+        app:cardCornerRadius="30dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="SIGN IN"
+           android:layout_marginTop="30dp"
+           android:layout_marginLeft="60dp"
+           android:layout_marginRight="60dp"
+           android:gravity="center"
+           android:textSize="25dp"
+           android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/email_et"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttoncorners"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="15dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/darkpurple"
+        android:layout_marginTop="50dp"
+        android:textColorHint="@color/darkpurple"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="50dp"
+        android:background="@drawable/buttoncorners"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:elevation="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/darkpurple"
+        android:textColorHint="@color/darkpurple"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <CheckBox
+        android:id="@+id/signIn_checkbox"
+        android:layout_width="200dp"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@color/darkpurple"
+        android:text="Show Password"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/darkpurple" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Forgot Password?"
+        android:textColor="@color/darkpurple"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/button_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/purple"
+        android:elevation="30dp"
+        android:clickable="true"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        />
+
+    <TextView
+        android:id="@+id/dtnaccn"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account ? Sign Up."
+        android:textColor="@color/darkpurple"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <ProgressBar
+        android:id="@+id/pgbaars"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/darkpurple"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
