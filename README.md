@@ -9,7 +9,8 @@
  - Quiz will automatically stoped after the time will expired.
  - Users should able to change or update profile photo.
  - Users should able to see own results.
- - https://user-images.githubusercontent.com/88847727/188412407-f7b0ef43-bd6a-42f0-b284-b62af420f044.mp4
+ 
+  https://user-images.githubusercontent.com/88847727/188412407-f7b0ef43-bd6a-42f0-b284-b62af420f044.mp4
 
 ### Quiz App Screenshot
  - [Quiz App - Screenshot .pdf](https://github.com/vaibhavkr002/Quiz-App/files/9488321/Quiz.App.-.Screenshot.pdf)
