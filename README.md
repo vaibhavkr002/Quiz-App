@@ -12,3 +12,6 @@
 
 ### Quiz App Screenshot
  - [Quiz App - Screenshot .pdf](https://github.com/vaibhavkr002/Quiz-App/files/9488321/Quiz.App.-.Screenshot.pdf)
+ -Quiz will automatically stoped after the time will expired.
+ -
+
